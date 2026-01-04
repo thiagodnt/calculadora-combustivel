@@ -60,3 +60,29 @@ body {
 .form button:hover {
 	background-color: hsl(31, 78%, 45%);
 }
+
+.result {
+	max-width: 420px;
+	background-color: #439c2d;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	margin-top: 18px;
+	padding: 18px;
+	transition: transform 0.8s ease;
+}
+
+.result:hover {
+	transform: scale(1.1);
+}
+
+.result h1 {
+	color: #fff;
+	margin-bottom: 18px;
+	font-size: 20px;
+}
+
+.result span {
+	color: #fff;
+	font-size: 18px;
+}
